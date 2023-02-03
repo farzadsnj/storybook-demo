@@ -1,0 +1,11 @@
+import React from "react";
+import { Button } from "@chakra-ui/react";
+
+export default {
+  title: "Chakra/Button",
+  component: Button,
+};
+
+export const Success = () => <Button variantColor='green'>Success</Button>
+export const Warning = () => <Button variantColor='yellow'>Warning</Button>
+export const Danger = () => <Button variantColor='red'>Danger</Button>
