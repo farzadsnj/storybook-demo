@@ -1,12 +1,14 @@
 import React from "react";
 import Button from "./Button";
+// import Center from "../center/Center";
 
 export default {
   title: "Form/Button",
   component: Button,
   args: {
-    children: 'Button'
-  }
+    children: "Button",
+  },
+  // decorators: [(story) => <Center>{story()}</Center>],
 };
 
 export const Primary = () => <Button variant="primary">Primary</Button>;
